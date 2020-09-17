@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import HelloStudent from './components/HelloStudent';
+import HelloWarren from './components/HelloWarren';
 import HelloWorld from './components/HelloWorld';
 import './index.css';
 
@@ -12,6 +13,7 @@ ReactDOM.render(
     <HelloWorld/>
     <HelloStudent name = "Eboka"/>
     <HelloStudent name = "Preet"/> 
+    <HelloWarren/>
     
   </React.StrictMode>,
   document.getElementById('root')
